@@ -41,3 +41,29 @@ Changes to be committed:
 $ git commit -m "Update text file"
 [master 5b516a5] Update text file
  1 file changed, 5 insertions(+)
+
+ # View your Git commit history
+ $ git log
+commit 5b516a5bf880d2e7d756ef7a94d536803f8b7566
+Author: codecademy <ccuser@codecademy.com>
+Date:   Thu Feb 17 10:18:28 2022 +0000
+
+    Update text file
+
+commit 28858946a7acfb8ca97b5ee7801f5652afef7991
+Author: codecademy <ccuser@codecademy.com>
+Date:   Thu Feb 17 10:09:42 2022 +0000
+
+    Add project file
+
+# Add more info and commit
+$ git add meal-regimens.txt
+$ git commit -m "Add poison dart frogs info"
+[master 99c4388] Add poison dart frogs info
+ 1 file changed, 4 insertions(+)
+
+$ git add meal-regimens.txt
+$ git commit -m "Add Western Lowland Gorilla info"
+[master e7df086] Add Western Lowland Gorilla info
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+    
